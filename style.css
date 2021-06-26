@@ -1,0 +1,49 @@
+#sidebar
+{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    left: -20%;
+    background-color: black;
+
+}
+
+#sidebar li
+{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+.toggle-btn
+{
+    position: absolute;
+    left: 100%;
+    top: 15px;
+}
+.toggle-btn span
+{
+display: block;
+background-color: black;
+width:30px;
+height: 5px;
+margin: 3px;
+}
+#sidebar.active
+{
+    left: 0;
+
+}
+section{
+    font-family: "Sofia", sans-serif;
+    font-weight: bold;
+    color: black;
+   
+}
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    tab-size: inherit;
+
+}
